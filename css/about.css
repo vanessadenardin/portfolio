@@ -10,6 +10,13 @@
     justify-content: center;
 }
 
+h1 {
+    font-family: 'Permanent Marker';
+    font-size: 45px;
+    color: #284B63;
+    letter-spacing: 3px;
+    text-align: center;
+}
 .about-me-img {
     display: block;
     max-width: 100%;
