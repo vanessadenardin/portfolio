@@ -18,26 +18,26 @@ main {
     text-align: center;
 }
 
-h1 {
+/* h1 {
     font-family: 'Permanent Marker';
     font-size: 45px;
     color: #284B63;
     letter-spacing: 3px;
     text-transform: uppercase;
     text-align: center;
-}
-h2 {
+} */
+/* h2 {
     font-family: Lora;
     font-size: large;
     color: #3C6E71;
     text-align: center;
-}
-p {
+} */
+/* p {
     font-family: Lato;
     color: #353535;
     text-align: right;
     padding: 10% 10%;
-}
+} */
 .links {
     /* font-size: 30px; */
     align-items: center;
