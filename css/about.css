@@ -1,0 +1,54 @@
+.about-me {
+    width: 50%;
+    height: 50%;
+    background: #D9D9D9;
+    margin:10px auto;
+    padding: 0 7px 0 7px;
+    width: 50%;
+    border-radius: 8px;
+    display: block;
+    justify-content: center;
+}
+
+.about-me-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: scale-down;
+    padding-left: 12%;
+    padding-top: 5%;
+}
+.box1 {
+    display: block;
+    padding: 5%;
+    /* margin-bottom: 5%; */
+    text-align: justify;
+}
+
+.box2 {
+    display: block;
+    padding: 5%;
+    text-align: justify;
+}
+
+.about-me h2 {
+    font-family: Lora;
+    font-size: large;
+    font-style: oblique;
+    text-align: center;
+    color: #3C6E71;
+}
+
+.about-me p {
+    font-family: Lato;
+    font-size: medium;
+    text-align: center;
+    color: #353535;
+}
+
+@media screen and (max-width: 600px) {
+    .about-me-img {
+        padding-left: 0;
+    }
+}
