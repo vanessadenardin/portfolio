@@ -23,9 +23,7 @@ main {
     padding: 10px 10px;
     color: #D9D9D9;
 }
-.home-container {
-    background-color: #D9D9D9;
-}
+
 .side-by-side {
     width: 100%;
     display: block;
@@ -35,9 +33,11 @@ main {
     text-align: center;
     margin-top: 5%;
 }
+
 .side-by-side h2 {
     margin: 0;
 }
+
 .side-by-side p{
     text-align: center;
     margin: 0;
