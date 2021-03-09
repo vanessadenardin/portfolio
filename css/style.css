@@ -38,6 +38,11 @@ nav {
     align-items: center;
 }
 
+a:hover {
+    text-decoration: line-through;
+    color: #FFFFFF;
+}
+
 .navigation {
     padding: 0 10px;
 }
