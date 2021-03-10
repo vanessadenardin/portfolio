@@ -55,7 +55,7 @@ a:active {
 
 h1 {
     font-family: 'Permanent Marker';
-    font-size: 45px;
+    font-size: 40px;
     color: #284B63;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -64,14 +64,14 @@ h1 {
 
 h2 {
     font-family: Lora;
-    font-size: 30px;
+    font-size: 25px;
     color: #3C6E71;
     text-align: center;
 }
 
 p {
     font-family: Lato;
-    font-size: 20px;
+    font-size: 15px;
     color: #353535;
     text-align: center;
 }
@@ -125,9 +125,9 @@ footer {
     /* add hamburger */
 }
 
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
     body {
         width: 100%;
         margin: 0;
     }
-}
+} */

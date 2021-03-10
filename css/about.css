@@ -35,8 +35,29 @@ img {
 }
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .about-me-img {
         padding: 5%;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    .about-me-container {
+        display: flex;
+        justify-content: center;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+    }
+    .image-container {
+        /* width: 300px;
+        height: auto; */
+    }
+    .side-by-side {
+        display: block;
+        margin-left: 10%;
+        /* align-items: center;
+        justify-content: center;
+        flex-direction: column; */
+        /* flex-direction: column; */
     }
 }

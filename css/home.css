@@ -7,9 +7,9 @@ main {
     width: 70%;
     height: 50%;
     display: flex;
-    padding: 5%;
-    margin: 10%;
-    border: solid #284B63;
+    /* padding: 5%; */
+    margin: 0 10%;
+    /* border: solid #284B63; */
 }
 
 .title-container {
@@ -69,8 +69,18 @@ ul {
         display: block;
     }
 }
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
     .side-by-side {
         display: flex;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    .home-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* margin-left: 10%;
+        margin-right: 10%; */
     }
 }
