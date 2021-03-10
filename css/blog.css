@@ -23,9 +23,9 @@
     display: flex;
 }
 
-p.author {
+/* p.author {
     text-decoration: underline;
-}
+} */
 
 .article-content-container {
     display: flex;
@@ -53,18 +53,24 @@ p.author {
     color: #284B63;
     border-style: none;
 }
-
-h2 {
-    font-size: 30px;
+ins {
+    font-style: italic;
+    text-decoration: none;
 }
 
-p {
-    font-size: 20px;
-    text-align: center;
-    margin: 0;
+@media screen and (max-width: 600px) {
+    img {
+        display: none;
+    }
+    .article-content {
+        width: fit-content;
+    }
+    .article-content-container {
+        height:fit-content;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .article {
         border-style: none;
         width: min-content;
@@ -92,4 +98,4 @@ p {
     p {
         text-align: justify;
     }
-}
+} */

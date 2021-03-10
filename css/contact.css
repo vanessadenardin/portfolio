@@ -1,61 +1,32 @@
-/* html, body {
+html, body {
     margin: 0;
     width: 100%;
     height: 100%;
-} */
-/* 
-main{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-} */
+}
 
 .contact-container {
+    width: 100%;
     display: flex;
-    /* padding: 5% 5%; */
-    width: 50%;
-    /* margin-right: 5%; */
-}
-
-
-/* img {
-    width: 250px;
-    margin: 0;
-    padding: 5% 5%;
-    border-radius: 10%;
-} */
-
-/* h2 {
-    font-size: 30px;
-    padding: 5% 5%;
-    text-align: justify;
-}
-
-.fas {
-    color: #3C6E71;
-    width: 50%;
-    height: 50%;
-    padding: 10%;
-    font-size: 20px;
-}
-
-p {
-    font-size: 20px;
-    padding: 0;
-}
-p:hover {
-    font-size: 150%;
-    color: #3C6E71;
-}
-button {
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    flex-basis: 100%;
     text-align: center;
-    display: block;
-    width: 30px;
-    height: 30px;
-} */
+    padding: 3% 5%;
+    margin: 0% 15%;
+}
 
-@media only screen and (max-width: 600px) {
+.text-container {
+    width: 50%;
+    padding: 3% 5%;
+}
+
+.form-container {
+    width: 50%;
+    padding: 3% 5%;
+}
+
+/* @media only screen and (max-width: 600px) {
     body {
         display: block;
     }
@@ -71,4 +42,4 @@ button {
     .photo {
         display: none;
     }
-}
+} */
