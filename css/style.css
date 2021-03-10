@@ -61,12 +61,14 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
+
 h2 {
     font-family: Lora;
     font-size: 30px;
     color: #3C6E71;
     text-align: center;
 }
+
 p {
     font-family: Lato;
     font-size: 20px;
