@@ -32,13 +32,36 @@
             </nav>
         </header>
         <main>
-            <div class="contact-container">
-                <h1>Contact me</h1>
-                <h2>If you want to contact me, you are in the right place!</h2>
-                <div class="contact-box">
-                    <i class="fas fa-phone-volume">
-                        <p>+61 434 981 297</p>
-                    </i>
+        <h1>Contact me</h1>
+        <section class="contact-container">
+            <div class="text-container">
+            <h2>If you want to contact me, you are in the right place!</h2>
+            </div>
+            <div class="form-container">
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                    <label>Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                    <label>Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                    <button type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
+            <div class="image-container">
+                <img src="" alt="">
+            </div>
+            <!-- <div class="contact-box">
+                <i class="fas fa-phone-volume">
+                <p>+61 434 981 297</p>
+                </i>
                 </div>
                 <div class="contact-box">
                     <i class="fas fa-phone-volume">
@@ -55,9 +78,8 @@
                 </i>
                 <div class="contact-box">
                     <img src="scott-webb-WJ8RsML-yZo-unsplash.jpg" alt="vanessa photo">
-                </div>
-            </div>
-
+                </div> -->
+            </section>
         </main>
         <footer>
             <section class="social-links">
