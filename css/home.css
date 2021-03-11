@@ -1,3 +1,4 @@
+
 main {
     padding: 5%;
     display: block;
@@ -50,7 +51,7 @@ main {
 } */
 
 .box {
-    height: fit-content;
+    height: 50%;
     flex: 1 1 0;
     text-align: center;
     background-color: #D9D9D9;
@@ -59,7 +60,6 @@ main {
     /* border-radius: 5%; */
     border: solid #284B63;
     box-shadow: 10px 10px #D9D9D9;
-
 }
 
 ul {
@@ -81,8 +81,25 @@ ul {
     .home-container {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
         /* margin-left: 10%;
         margin-right: 10%; */
+        /* width: 50%;
+        margin: 2%;
+        margin-right: 2%; */
+    }
+    .photo-container {
+        padding-left: 40%;
+        box-shadow: none;
+        border-radius: unset;
+    }
+    .title-container {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .title-container h2 {
+        font-size: 15px;
+    }
+    .box {
+        margin: 5%;
     }
 }
