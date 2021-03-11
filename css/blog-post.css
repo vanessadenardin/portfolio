@@ -1,11 +1,12 @@
 /* .blog-container ins {
     text-align: left;
 } */
+
 .img-post {
     display: flex;
     float: right;
-
 }
+
 .wrap-text {
     display: block;
     flex-direction: row;
@@ -13,9 +14,11 @@
     margin: 5%;
     /* flex-wrap: wrap; */
 }
+
 .wrap-text p {
     text-align: justify;
 }
+
 @media screen and (max-width: 600px) {
     .img-post {
         display: none;
@@ -24,9 +27,9 @@
         width: fit-content;
     }
     .article-content-container {
-        height:fit-content;
+        height: fit-content;
     }
     .wrap-text p {
-        padding 0;
+        padding: 0;
     }
 }

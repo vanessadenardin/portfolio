@@ -44,6 +44,9 @@ The chosen typography combined with each other according to a Google search.
 
 On all pages, rectangular elements were used to highlight the content, seeking to represent the seriousness given to the projects that I have been proposing to participate in throughout my professional training.
 
+No animation was added at this stage, as it makes no sense in the intention that the portfolio seeks to convey.
+
+
 ### Logo
 For the logo I opted for a more traditional and friendly look, adopting the circle, in addition to being formed by curves that refer to femininity.
 
@@ -109,6 +112,8 @@ For each page:
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora:wght@500&family=Permanent+Marker&display=swap" rel="stylesheet">
     </head>
 ```
+### JavaScript
+Although it was not yet learned in class, JavaScript was suggested as an approach to make the navigation bar more responsive. So I used the code available on the instructor's repository GitHub, making the modifications that fit my website portfolio.
 
 ### Git
 used for source code management tracking changes made to the website portfolio files, as well as to record that could allow me to revert to a specific version when needed.
