@@ -18,10 +18,15 @@ nav {
     padding: 10px 10px;
 }
 
-.logo {
-    width: 10%;
+nav img {
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    margin: 0;
+    margin: 20px 0 0 20px;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 ul {
@@ -38,7 +43,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, .selected {
     text-decoration: line-through;
     color: #FFFFFF;
 }
