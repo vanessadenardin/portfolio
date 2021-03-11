@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanessa's Portfolio</title>
+    <link rel="stylesheet" href="css/hamburger.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/blog.css" />
     <link rel="stylesheet" href="css/blog-post.css" />
@@ -17,22 +18,38 @@
 <body>
     <header>
         <nav>
-            <a href="./index.html"><img class="logo" src="./img/logo-vanessa.JPG" alt="Vanessa's logo"></a>
-            <ul>
-                <li class="navigation">
-                    <a href="./about.html">About</a>
-                </li>
-                <li class="navigation">
-                    <a href="./blog.html">Blog</a>
-                </li>
-                <li class="navigation">
-                    <a href="./projects.html">Projects</a>
-                </li>
-                <li class="navigation">
-                    <a href="./contact.html">Contact</a>
-                </li>
-            </ul>
+            <section class="image">
+                <a href="./index.html"><img src="./img/logo-vanessa.JPG" alt="Vanessa's logo"></a>
+            </section>
+            <section class="links">
+                <ul>
+                    <li class="navigation">
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li class="navigation">
+                        <a href="./blog.html">Blog</a>
+                    </li>
+                    <li class="navigation">
+                        <a href="./projects.html">Projects</a>
+                    </li>
+                    <li class="navigation">
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </section>
+
+            <button class="hamburger hamburger--squeeze button-outline" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
         </nav>
+        <ul class="hamburger-links">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
     </header>
     <main>
         <h1>Blog</h1>
@@ -78,6 +95,20 @@
         </section>
     </footer>
     <script src="https://kit.fontawesome.com/67a0af6ce4.js" crossorigin="anonymous"></script>
+    <script>
+        const hamburger = document.querySelector('.hamburger')
+        const links = document.querySelector('.hamburger-links')
+        hamburger.addEventListener('click', function () {
+            hamburger.classList.toggle('is-active')
+            const isActive = hamburger.classList.contains('is-active')
+            if (isActive) {
+                links.style.display = 'block'
+            } else {
+                links.style.display = 'none'
+            }
+        })
+    </script>
+
 </body>
 
 </html>
