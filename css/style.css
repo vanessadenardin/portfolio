@@ -167,7 +167,7 @@ footer {
     position: fixed;
     top: 15vh;
     z-index: 2;
-    background: white;
+    background: #FFFFFF;
     width: 100vw;
     margin: 0px;
     padding: 0px;
@@ -180,11 +180,11 @@ footer {
 
 .hamburger-links li a {
     text-decoration: none;
-    color: black;
+    color: #3C6E71;
 }
 
 .hamburger-links li a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3C6E71;
 }
 
 @media only screen and (max-width: 600px) {

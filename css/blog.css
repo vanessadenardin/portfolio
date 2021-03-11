@@ -59,7 +59,7 @@ ins {
 }
 
 @media screen and (max-width: 600px) {
-    img {
+    .image-section {
         display: none;
     }
     .article-content {
