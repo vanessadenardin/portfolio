@@ -1,23 +1,23 @@
-/* .blog-container ins {
-    text-align: left;
-} */
+/* image element styling */
 
 .img-post {
     display: flex;
     float: right;
 }
 
+/* p element styling */
+
 .wrap-text {
     display: block;
     flex-direction: row;
-    /* float: right; */
     margin: 5%;
-    /* flex-wrap: wrap; */
 }
 
 .wrap-text p {
     text-align: justify;
 }
+
+/* @media rule styling */
 
 @media screen and (max-width: 600px) {
     .img-post {

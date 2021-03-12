@@ -1,3 +1,5 @@
+/* body content styling */
+
 .blog-container {
     display: flex;
     flex-direction: column;
@@ -5,13 +7,15 @@
     justify-content: center;
 }
 
+/* flexbox elements styling */
+
 .article-container {
     display: inline-block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: #D9D9D9;
-    padding: 3% 5%;
+    padding: 2% 2%;
     margin: 0 10%;
     width: 70%;
     height: 50%;
@@ -22,10 +26,6 @@
 .article {
     display: flex;
 }
-
-/* p.author {
-    text-decoration: underline;
-} */
 
 .article-content-container {
     display: flex;
@@ -40,6 +40,18 @@
     height: 50%;
 }
 
+/* image and article contents styling */
+
+.article-container img {
+    width: 80%;
+}
+
+.article-container ins, .article-content-container {
+    padding: 2%;
+}
+
+/* icon element styling */
+
 .button-read-more {
     background-color: #284B63;
     padding: 2% 2%;
@@ -53,49 +65,26 @@
     color: #284B63;
     border-style: none;
 }
+
 ins {
     font-style: italic;
     text-decoration: none;
 }
 
+/* @media rule styling */
+
 @media screen and (max-width: 600px) {
-    .image-section {
-        display: none;
+    .article-container {
+        display: block;
     }
-    .article-content {
-        width: fit-content;
+    .article-container p {
+        width: 200%;
+        padding-right: 70%
+    }
+    .img-section {
+        display: block;
     }
     .article-content-container {
-        height:fit-content;
+        height: fit-content;
     }
 }
-
-/* @media only screen and (max-width: 600px) {
-    .article {
-        border-style: none;
-        width: min-content;
-        text-align: justify;
-    }
-    .post-image {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .blog {
-        background-color: #FFFFFF;
-    }
-    .article {
-        border-style: none;
-    }
-    p.author {
-        text-align: justify;
-        padding-left: 20%;
-    }
-    .post-image {
-        display: inline-block;
-    }
-    p {
-        text-align: justify;
-    }
-} */
