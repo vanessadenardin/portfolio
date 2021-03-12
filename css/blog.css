@@ -77,12 +77,8 @@ ins {
     .article-container {
         display: block;
     }
-    .article-container p {
-        width: 200%;
-        padding-right: 70%
-    }
-    .img-section {
-        display: block;
+    img {
+        display: none;
     }
     .article-content-container {
         height: fit-content;
