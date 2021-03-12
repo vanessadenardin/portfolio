@@ -47,7 +47,6 @@ form input, textarea {
         display: flex;
         width: 90%;
         margin: 0;
-        display: block;
     }
     .form-container {
         display: block;
