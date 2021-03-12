@@ -1,4 +1,8 @@
-/* body element styling */
+html, body {
+    height: auto;
+}
+    
+    /* body element styling */
 
 .contact-container {
     width: 100%;

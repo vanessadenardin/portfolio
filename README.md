@@ -148,4 +148,3 @@ In order to enhancce the performance of the website, another open source platfor
     - Roman Synkevych - https://unsplash.com/photos/vXInUOv1n84
     - Safar Safarov - https://unsplash.com/photos/MSN8TFhJ0is
     - Social Mode - https://unsplash.com/photos/WmVtCFR1C1g
-    - https://undraw.co/
