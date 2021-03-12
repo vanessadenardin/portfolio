@@ -77,10 +77,10 @@ ins {
     .article-container {
         display: block;
     }
-    img {
-        display: none;
-    }
     .article-content-container {
         height: fit-content;
+    }
+    .image-section {
+        display: none;
     }
 }
