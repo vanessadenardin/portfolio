@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- This is the tag lang="zxx" as the page still under construction -->
+<html lang="zxx">
 
 <!-- This is the configuration of the page that will be displayed in the browser -->
 
@@ -21,10 +22,10 @@
     <!-- This is the contents of the menu bar that will be displayed in the browser -->
     <header>
         <nav>
-            <section class="image">
+            <div class="image">
                 <a href="./index.html"><img src="./img/logo-vanessa.JPG" alt="Vanessa's logo"></a>
-            </section>
-            <section class="links">
+            </div>
+            <div class="links">
                 <ul>
                     <li class="navigation">
                         <a href="./about.html">About</a>
@@ -39,7 +40,7 @@
                         <a href="./contact.html">Contact</a>
                     </li>
                 </ul>
-            </section>
+            </div>
 
             <!-- This is hamburger menu that will be displayed in the browser -->
             <button class="hamburger hamburger--squeeze button-outline" type="button">
@@ -63,8 +64,8 @@
         </a>
         <div class="blog-container">
             <h2>Lorem ipsum dolor sit amet.</h2>
+            <!-- This is an example of how the date will be displayed in the browser  -->
             <h3><time datetime="2021-03-07">March 7, 2021</time></h3>
-            <!-- <ins date="YYYY-MM-DD"><p>10 03 2021</p></ins> -->
             <div class="img-post">
 
                 <!-- This is an example of how the image will be displayed in the browser  -->
@@ -91,18 +92,23 @@
                     ratione quam sint, quaerat vel velit laboriosam mollitia omnis saepe facilis aspernatur minus, ad
                     optio. Odio ducimus officia maxime molestiae corrupti obcaecati molestias modi cum!</p>
             </div>
-            <a href="./blog-post5.html"><i class="fas fa-arrow-right"></i></a>
+            <a href="./blog-post5.html" aria-label="next blog article"><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         </div>
     </main>
 
     <!-- This is the content of the footer tag that will be displayed in the browser -->
     <footer>
-        <section class="social-links">
-            <a href="./vanessa-denardin-cv.pdf" class="links" target="_blank"><i class="fas fa-file"></i></a>
-            <a href="https://www.linkedin.com/in/vanessadenardin/" class="links" target="_blank"><i
-                    class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/vanessadenardin" class="links" target="_blank"><i class="fab fa-github"></i></a>
-        </section>
+
+        <div class="social-links">
+            <!-- This is the social network links - accessibility -->
+
+            <a href="./vanessa-denardin-cv.pdf" class="links" target="_blank" aria-label="CV"><i class="fas fa-file"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/vanessadenardin/" class="links" target="_blank"
+                aria-label="Linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="https://github.com/vanessadenardin" class="links" target="_blank" aria-label="Github"><i
+                    class="fab fa-github" aria-hidden="true"></i></a>
+        </div>
         <section class="copyright">
             <h3>© Vanessa Denardin 2021</h3>
         </section>

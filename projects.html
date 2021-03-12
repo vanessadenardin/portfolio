@@ -21,10 +21,10 @@
     <!-- This is the contents of the menu bar that will be displayed in the browser -->
     <header>
         <nav>
-            <section class="image">
+            <div class="image">
                 <a href="./index.html"><img src="./img/logo-vanessa.JPG" alt="Vanessa's logo"></a>
-            </section>
-            <section class="links">
+            </div>
+            <div class="links">
                 <ul>
                     <li class="navigation">
                         <a href="./about.html">About</a>
@@ -39,7 +39,7 @@
                         <a href="./contact.html">Contact</a>
                     </li>
                 </ul>
-            </section>
+            </div>
 
             <!-- This is hamburger menu that will be displayed in the browser -->
             <button class="hamburger hamburger--squeeze button-outline" type="button">
@@ -94,12 +94,17 @@
 
     <!-- This is the content of the footer tag that will be displayed in the browser -->
     <footer>
-        <section class="social-links">
-            <a href="./vanessa-denardin-cv.pdf" class="links" target="_blank"><i class="fas fa-file"></i></a>
-            <a href="https://www.linkedin.com/in/vanessadenardin/" class="links" target="_blank"><i
-                    class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/vanessadenardin" class="links" target="_blank"><i class="fab fa-github"></i></a>
-        </section>
+
+        <div class="social-links">
+            <!-- This is the social network links - accessibility -->
+            
+            <a href="./vanessa-denardin-cv.pdf" class="links" target="_blank" aria-label="CV"><i class="fas fa-file"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/vanessadenardin/" class="links" target="_blank"
+                aria-label="Linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="https://github.com/vanessadenardin" class="links" target="_blank" aria-label="Github"><i
+                    class="fab fa-github" aria-hidden="true"></i></a>
+        </div>
         <section class="copyright">
             <h3>© Vanessa Denardin 2021</h3>
         </section>
