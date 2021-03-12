@@ -147,6 +147,5 @@ In order to enhancce the performance of the website, another open source platfor
     - Kevin Ku - https://unsplash.com/photos/w7ZyuGYNpRQ
     - Roman Synkevych - https://unsplash.com/photos/vXInUOv1n84
     - Safar Safarov - https://unsplash.com/photos/MSN8TFhJ0is
-    - Scott Webb - https://unsplash.com/photos/WJ8RsML-yZo
     - Social Mode - https://unsplash.com/photos/WmVtCFR1C1g
     - https://undraw.co/
