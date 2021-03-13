@@ -27,7 +27,9 @@ This repository showcases some of Vanessa's skills as a Web Developer student as
 - [Credits](#credits)
 
 ## Website URL
-_https://condescending-panini-b993b3.netlify.app/_
+*https://www.vanessadenardin.com*
+
+*https://condescending-panini-b993b3.netlify.app/*
 
 ## Purpose
 This website portfolio is an extension of the curriculum of Web Development student Vanessa Denardin, bringing information about knowledge, skills, hobbies, aspirations and projects that Vanessa has been doing over the years.
@@ -118,7 +120,7 @@ For each page:
     </head>
 ```
 ### JavaScript
-Although it was not yet learned in class, JavaScript was suggested as an approach to make the navigation bar more responsive. So I used the code available on the instructor's repository GitHub, adding the hamburger button when the screen size changes.
+Although it was not yet learned in class, JavaScript was suggested as an approach to make the navigation bar more responsive. So I used the code available on the instructor's repository GitHub, adding the hamburger button when the screen size changes and also an extra bit of script to fix the hamburger menu when that was open and the window was resized.
 
 ### Git
 used for source code management tracking changes made to the website portfolio files, as well as to record that could allow me to revert to a specific version when needed.
@@ -130,24 +132,44 @@ As suggested in class, Netlify, an open source platform, was used to deployment 
 In order to enhancce the performance of the website, another open source tool, Google Lighthouse, was used to check overall performance and make corrections to the accessibility in the portfolio.
 
 #### Desktop users:
+- Index
+
 ![Lighthouse](docs/index-lighthouse.png)
+
+- About
 
 ![Lighthouse](docs/about-lighthouse.png)
 
+- Blog
+
 ![Lighthouse](docs/blog-lighthouse.png)
 
+- Projects
+
 ![Lighthouse](docs/projects-lighthouse.png)
+
+- Contact
 
 ![Lighthouse](docs/contact-lighthouse.png)
 
 #### Mobile users:
+- Index
+
 ![Lighthouse](docs/mobile-index-lighthouse.png)
+
+- About
 
 ![Lighthouse](docs/mobile-about-lighthouse.png)
 
+- Blog
+
 ![Lighthouse](docs/mobile-blog-lighthouse.png)
 
+- Projects
+
 ![Lighthouse](docs/mobile-projects-lighthouse.png)
+
+- Contact
 
 ![Lighthouse](docs/mobile-contact-lighthouse.png)
 
