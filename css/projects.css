@@ -13,7 +13,6 @@ main img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 10px;
     flex-basis: 100%;
     text-align: center;
     padding: 3% 5%;
@@ -45,6 +44,6 @@ main img {
     }
     .box {
         width: 70%;
-        margin: 10% 3%;
+        margin: 0 3% 7% 3%;
     }
 }

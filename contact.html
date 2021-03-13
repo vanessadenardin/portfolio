@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <!-- This is the contents of the menu bar that will be displayed in the browser -->
     <header>
         <nav>
@@ -66,20 +65,16 @@
             <!-- This is how the contact form will be displayed in the contact page browser -->
             <div class="form-container">
                 <form name="contact" method="POST" data-netlify="true">
-                    <p>
-                        <label>Name: <input type="text" name="name" /></label>
-                    </p>
-                    <p>
-                        <label>Email: <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                    </p>
-                    <p>
-                        <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                        <button type="submit">Send</button>
-                    </p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+
+                    <label for="message">Message:</label>
+                    <textarea name="message"></textarea>
+
+                    <input type="submit" value="Submit">
                 </form>
             </div>
         </section>
@@ -87,7 +82,6 @@
 
     <!-- This is the content of the footer tag that will be displayed in the browser -->
     <footer>
-
         <div class="social-links">
             <!-- This is the social network links - accessibility -->
 
@@ -102,22 +96,10 @@
             <h3>© Vanessa Denardin 2021</h3>
         </section>
     </footer>
-    <script src="https://kit.fontawesome.com/67a0af6ce4.js" crossorigin="anonymous"></script>
 
     <!-- This is the Java Script added -->
-    <script>
-        const hamburger = document.querySelector('.hamburger')
-        const links = document.querySelector('.hamburger-links')
-        hamburger.addEventListener('click', function () {
-            hamburger.classList.toggle('is-active')
-            const isActive = hamburger.classList.contains('is-active')
-            if (isActive) {
-                links.style.display = 'block'
-            } else {
-                links.style.display = 'none'
-            }
-        })
-    </script>
+    <script src="https://kit.fontawesome.com/67a0af6ce4.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 
 </body>
 

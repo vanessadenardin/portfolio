@@ -1,19 +1,30 @@
-html, body {
-    height: auto;
+body {
+    min-height: 100%;
+    position: relative;
+    overflow-y: hidden;
 }
-    
-    /* body element styling */
 
-.contact-container {
+main {
+    min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
     width: 100%;
+}
+
+/* form element styling */
+.contact-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     padding: 10px 10px;
     flex-basis: 100%;
     text-align: center;
     padding: 3% 5%;
     margin: 0% 15%;
+    text-align: left;
 }
 
 .text-container {
@@ -24,21 +35,53 @@ html, body {
 .form-container {
     width: 50%;
     padding: 3% 5%;
+    border: 2px solid;
 }
 
-form p {
+/* Style inputs */
+label {
+    color: #3C6E71;
+    text-align: left;
+    justify-content: left;
+    padding-left: 0;
+    margin-left: 0;
+    font-weight: bold;
+
+}
+
+input[type=text], textarea {
     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #D9D9D9;
 }
 
-/* form element styling */
+/* Style the submit button */
 
-form input, textarea {
-    color: #D9D9D9;
-    background-color: #D9D9D9;
-    margin: 0em;
-    border-color: #D9D9D9;
-    width: 200px;
-    margin: 2%;
+input[type=submit] {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid #284B63;
+    cursor: pointer;
+    border: solid #284B63;
+    text-decoration: none;
+    color: #3C6E71;
+    font-weight: bold;
+}
+
+.presentation-box a {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border: solid #284B63;
+    align-items: center;
+    margin: 0 auto;
 }
 
 /* @media rule styling */
@@ -52,8 +95,30 @@ form input, textarea {
         width: 90%;
         margin: 0;
     }
-    .form-container {
+}
+
+/* iphone5 */
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 15px;
+    }
+    .contact-container {
+        height: 320px;
+    }
+}
+
+/* ipad */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .contact-container {
         display: block;
-        padding-left: 15%;
+        justify-content: center;
+    }
+    .form-container {
+        width: 90%;
+        align-items: center;
+    }
+    .text-container {
+        width: 90%;
+        
     }
 }
