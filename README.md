@@ -15,9 +15,11 @@ This repository showcases some of Vanessa's skills as a Web Developer student as
     - [Content](#content)
     - [Relevant social media accounts](#relevant-social-media-accounts)
     - [Relevant projects](#relevant-projects)
+    - [Responsiveness](#responsiveness)
 - [Sitemap](#sitemap)
 - [Tech Stack](#tech-stack)
     - [HTML5 & CSS](#html5-&-css)
+    - [JavaScript](#javascript)
     - [Git](#git)
     - [Netlify](#netlify)
     - [Lighthouse](#lighthouse)
@@ -53,7 +55,7 @@ For the logo I opted for a more traditional and friendly look, adopting the circ
 ![logo](docs/logo.png)
 
 ### Call to Action
-In addition to the social media icons on all pages linked to personal accounts, the "get in touch" button added to the about page and the "send" button just below the contact form were added to reinforce the desire to connect with potential employers and other professionals.
+In addition to the social media icons on all pages linked to personal accounts, the "get in touch" button added to the about page and the "submit" button just below the contact form were added to reinforce the desire to connect with potential employers and other professionals.
 
 ### Images
 On personal pages (Homepage and About Page), I tried to use the highest quality images to represent my personality and my work, but for the other pages, I used Unsplash images, because I still don't have enough experience to use my own projects and the pages are still in progress.
@@ -68,12 +70,8 @@ To simplify things, on the contact page I added a simple contact form where the 
 In addition, if the user visits the about page, he will find a link redirecting to the contact page.
 Moreover, on each page are my social networks present to connect and my resume to dowload.
 
-<!-- contact page -->
-
 ### Information about me
-Pages like Homepage, About and Projects should, as a function, introduce me to the users of the site. it will be an opportunity for me to pass on information such as education and training, work, projects that I am developing, skills, hobbies, expectations, among others.
-
-<!-- about me -->
+Pages like Homepage, About and Projects should, as a function, introduce me to the users of the site. it will be an opportunity for me to pass on information such as education and training, work, projects that I am developing, skills, hobbies, an education.
 
 ### Content
 All the content produced on the page will aim to establish a real connection with users, sharing real information, explaining how projects and professional skills developed and how I overcame the challenges along the way.
@@ -92,6 +90,9 @@ The projects page was designed to add the projects that I will develop throughou
 The sitemap was developed linking the root (Home) with all other pages, namely About, Projects, Blog, Contact, as shown below. The Blog page is connected to all the articles developed.
 
 ![sitemap](docs/sitemap.png)
+
+## Responsiveness
+Regarding the responsiveness of the site, all pages considered users of iPhone 5/SE, iPhone X, Ipad and desktop.
 
 ## Tech Stack
 ### HTML5 & CSS
@@ -113,7 +114,7 @@ For each page:
     </head>
 ```
 ### JavaScript
-Although it was not yet learned in class, JavaScript was suggested as an approach to make the navigation bar more responsive. So I used the code available on the instructor's repository GitHub, making the modifications that fit my website portfolio.
+Although it was not yet learned in class, JavaScript was suggested as an approach to make the navigation bar more responsive. So I used the code available on the instructor's repository GitHub, adding the hamburger button when the screen size changes.
 
 ### Git
 used for source code management tracking changes made to the website portfolio files, as well as to record that could allow me to revert to a specific version when needed.
@@ -122,7 +123,25 @@ used for source code management tracking changes made to the website portfolio f
 As suggested in class, Netlify, an open source platform, was used to deployment the website portfolio.
 
 ### Lighthouse
-In order to enhancce the performance of the website, another open source platform, Google Lighthouse, was used to check overall performance and make corrections to the accessibility in the portfolio.
+In order to enhancce the performance of the website, another open source tool, Google Lighthouse, was used to check overall performance and make corrections to the accessibility in the portfolio.
+
+#### Desktop users:
+![Lighthouse](docs/index-lighthouse.png)
+
+![Lighthouse](docs/about-lighthouse.png)
+
+![Lighthouse](docs/blog-lighthouse.png)
+
+![Lighthouse](docs/projects-lighthouse.png)
+
+#### Iphone X users:
+![Lighthouse](docs/iphonex-index-lighthouse.png)
+
+![Lighthouse](docs/iphonex-about-lighthouse.png)
+
+![Lighthouse](docs/iphonex-blog-lighthouse.png)
+
+![Lighthouse](docs/iphonex-projects-lighthouse.png)
 
 ## Credits
 - Sitemap Maker
