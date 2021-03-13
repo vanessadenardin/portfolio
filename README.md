@@ -2,6 +2,7 @@
 This repository showcases some of Vanessa's skills as a Web Developer student as an assignment of the Coder Academy Fast Track program class in Melbourne, 2021.
 
 # Table of Contents
+- [Website URL](#websiteurl)
 - [Purpose](#purpose)
 - [Target audience](#target-audience)
 - [Functionality and Features](#functionality-and-features)
@@ -24,6 +25,9 @@ This repository showcases some of Vanessa's skills as a Web Developer student as
     - [Netlify](#netlify)
     - [Lighthouse](#lighthouse)
 - [Credits](#credits)
+
+## Website URL
+_https://condescending-panini-b993b3.netlify.app/_
 
 ## Purpose
 This website portfolio is an extension of the curriculum of Web Development student Vanessa Denardin, bringing information about knowledge, skills, hobbies, aspirations and projects that Vanessa has been doing over the years.
