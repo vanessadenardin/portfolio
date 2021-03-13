@@ -134,14 +134,18 @@ In order to enhancce the performance of the website, another open source tool, G
 
 ![Lighthouse](docs/projects-lighthouse.png)
 
-#### Iphone X users:
-![Lighthouse](docs/iphonex-index-lighthouse.png)
+![Lighthouse](docs/contact-lighthouse.png)
 
-![Lighthouse](docs/iphonex-about-lighthouse.png)
+#### Mobile users:
+![Lighthouse](docs/mobile-index-lighthouse.png)
 
-![Lighthouse](docs/iphonex-blog-lighthouse.png)
+![Lighthouse](docs/mobile-about-lighthouse.png)
 
-![Lighthouse](docs/iphonex-projects-lighthouse.png)
+![Lighthouse](docs/mobile-blog-lighthouse.png)
+
+![Lighthouse](docs/mobile-projects-lighthouse.png)
+
+![Lighthouse](docs/mobile-contact-lighthouse.png)
 
 ## Credits
 - Sitemap Maker
