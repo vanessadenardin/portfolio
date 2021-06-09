@@ -8,12 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanessa's Portfolio</title>
-    <link rel="stylesheet" href="css/hamburger.css" integrity="sha512-ggSK4Z4EqwH9fhLp8IEVUrOUj7avfB+byrq2r4ITgYccPrRJ8dQpoAtG9rgA6PMoA2htOwAYnzUVhP05TvRwhw=="/>
-    <link rel="stylesheet" href="css/style.css" integrity="sha512-cmVYzgm7vXv+tyaegaxZodpyxchW4druQoymUzdKZSXMcH9YaQTf3LRZ/aMt9TqiECLzvUVnMFzEXm0QcoZnag=="/>
-    <link rel="stylesheet" href="css/projects.css" integrity="sha512-ElajEjjTFucveZsKiNWTdtWdSHinmufbr1A355zsCDUb56j1lSxP2PgmYRthFWf8FXd0ig7hORTYYOJfXmpPrQ=="/>
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/projects.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora:wght@500&family=Permanent+Marker&display=swap"
-        rel="stylesheet" integrity="sha512-dg739er7HfZ1V4/k0yTkn/L97vzoKC5ICVQFtQZIzOOdBneET8/pqpujz2vAIDKis1SqXi05PSyaNPZI9aFL7A==" crossorigin="anonymous">
+        rel="stylesheet">
+    <link rel="stylesheet" href="static/styles/fontawesome/css/fontawesome-all.css">
 </head>
 
 <body>
@@ -29,9 +30,9 @@
                     <li class="navigation">
                         <a href="./about.html">About</a>
                     </li>
-                    <li class="navigation">
+                    <!-- <li class="navigation">
                         <a href="./blog.html">Blog</a>
-                    </li>
+                    </li> -->
                     <li class="navigation">
                         <a href="./projects.html">Projects</a>
                     </li>
@@ -40,7 +41,6 @@
                     </li>
                 </ul>
             </div>
-
             <!-- This is hamburger menu that will be displayed in the browser -->
             <button class="hamburger hamburger--squeeze button-outline" type="button" aria-label="hamburger">
                 <span class="hamburger-box">
@@ -50,7 +50,7 @@
         </nav>
         <ul class="hamburger-links">
             <li><a href="./about.html">About</a></li>
-            <li><a href="./blog.html">Blog</a></li>
+            <!-- <li><a href="./blog.html">Blog</a></li> -->
             <li><a href="./projects.html">Projects</a></li>
             <li><a href="./contact.html">Contact</a></li>
         </ul>
@@ -63,54 +63,57 @@
         <!-- This is how the project content and the repository links will be displayed in the browser on the projects page -->
         <section class="side-by-side">
             <div class="box">
-                <img src="./img/Project1.JPG" alt="first project">
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex alias doloremque tenetur nostrum vel
-                    asperiores architecto officia accusamus! Sequi, distinctio.</p>
-                <a href="https://github.com/vanessadenardin" target="_blank">
+                <img src="./img/public-services-page.png" alt="marketplace project">
+                <h2>Marketplace Application</h2>
+                <p>Design, build and implementation of a Ruby on Rails using MVC web marketplace with Postgresql database.</p>
+                <a href="https://pet-sitter-club.herokuapp.com/" target="_blank">
+                    <h3>LINK TO LIVE DEMO </h3> 
+                <a href="https://github.com/vanessadenardin/pet-sitter-club" target="_blank">
                     <h3>LEARN MORE <i class="fab fa-github"></i></h3>
                 </a>
             </div>
+            
             <div class="box">
-                <img src="./img/Project1.JPG" alt="first project">
-                <h2>Lorem ipsum dolor sit.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae commodi veritatis dolorem voluptates.
+                <img src="./img/home.png" alt="terminal app">
+                <h2>Terminal App</h2>
+                <p>Design and implementation of a Ruby terminal application.
                 </p>
-                <a href="https://github.com/vanessadenardin" target="_blank">
+                <a href="https://github.com/vanessadenardin/pet-sitter-app" target="_blank">
                     <h3>LEARN MORE <i class="fab fa-github"></i></h3>
                 </a>
             </div>
+
             <div class="box">
-                <img src="./img/Project1.JPG" alt="first project">
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid, possimus repellat id optio
-                    vero!</p>
-                <a href="https://github.com/vanessadenardin" target="_blank">
+                <img src="./img/Project1.JPG" alt="portfolio project">
+                <h2>Portfolio Website</h2>
+                <p>My first web development: a portfolio website using only HTML and CSS, without the use of frameworks.</p>
+                <a href="https://github.com/vanessadenardin/portfolio" target="_blank">
                     <h3>LEARN MORE <i class="fab fa-github"></i></h3>
                 </a>
             </div>
+
         </section>
     </main>
 
     <!-- This is the content of the footer tag that will be displayed in the browser -->
     <footer>
 
-        <div class="social-links">
+        <!-- <div class="social-links"> -->
             <!-- This is the social network links - accessibility -->
 
-            <a href="./docs/vanessa-denardin-cv.pdf" class="links" target="_blank" aria-label="CV"><i class="fas fa-file"
-                    aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/vanessadenardin/" class="links" target="_blank"
-                aria-label="Linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-            <a href="https://github.com/vanessadenardin" class="links" target="_blank" aria-label="Github"><i
-                    class="fab fa-github" aria-hidden="true"></i></a>
-        </div>
+            <!-- <a href="./docs/vanessa-denardin-cv.pdf" class="links" target="_blank" aria-label="CV"><i class="fas fa-file"
+                    aria-hidden="true"></i></a> -->
+                <!-- <a href="https://www.linkedin.com/in/vanessadenardin/" class="links" target="_blank"
+                    aria-label="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/vanessadenardin" class="links" target="_blank" aria-label="Github"><i
+                        class="fab fa-github" aria-hidden="true"></i></a> -->
+            <!-- </div> -->
         <section class="copyright">
             <h3>© Vanessa Denardin 2021</h3>
         </section>
     </footer>
-    <script type="text/javascript" src="https://kit.fontawesome.com/67a0af6ce4.js" integrity="sha512-6YWTV/7BokITsbVFxNWeYQTO4WSvu8F/zHhiwl+nplglwwJgqh9U8EOJLy4cVfLmcNcm3h0QLaghC1OwT6E9sA==" crossorigin="anonymous"></script>
-    <script src="js/main.js" integrity="sha512-NInZoCcJaA8x3L/YpIlGnsXjtpDIMDxDAIZQPIcycUPPMHV8vCUDtsANOzk1hdsmZLJ3NPFzrK9Nmo+h8N/k8g=="></script>
+    <!-- <script type="text/javascript" src="https://kit.fontawesome.com/67a0af6ce4.js" integrity="sha512-6YWTV/7BokITsbVFxNWeYQTO4WSvu8F/zHhiwl+nplglwwJgqh9U8EOJLy4cVfLmcNcm3h0QLaghC1OwT6E9sA==" crossorigin="anonymous"></script>
+    <script src="js/main.js" integrity="sha512-NInZoCcJaA8x3L/YpIlGnsXjtpDIMDxDAIZQPIcycUPPMHV8vCUDtsANOzk1hdsmZLJ3NPFzrK9Nmo+h8N/k8g=="></script> -->
 
 </body>
 
